@@ -24,7 +24,7 @@ public class Delete {
     public void getData() throws IOException {
 
         FileInputStream fis = new FileInputStream(System.getProperty("user.dir") + "/src/main/java/files/env.properties");
-//      FileInputStream fis = new FileInputStream("C:\\Users\\Volodymyr_Kryvobok\\IdeaProjects\\first\\src\\main\\java\\files\\env.properties");
+
         prop = new Properties();
         prop.load(fis);
     }
